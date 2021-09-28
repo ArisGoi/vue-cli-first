@@ -2,12 +2,11 @@
   <div id="app">
     <titolo/>
     <hero/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import titolo from '@/components/titolo.vue'
+import titolo from './components/titolo.vue'
 import hero from './components/hero.vue'
 
 export default {
